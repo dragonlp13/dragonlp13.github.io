@@ -1,0 +1,157 @@
+﻿# domashka3
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <title> Popov s </title>
+  <meta charset = "utf-8">
+  <link rel="stylesheet" href="style3.css">
+  </head>
+  <body>
+      <header>
+        <div class="header-examples">
+          <img id="logo" src="logo3.png" alt="2ms">
+          <h1>Сайт КубГУ V.2</h1> 
+        </div>
+      </header>
+      <main>
+      <nav class = "KubsuNav">
+        <a class="nav" href="https://www.kubsu.ru/ru/university">УНИВЕРСИТЕТ</a>
+        <a class="nav" href="https://www.kubsu.ru/ru/education">ОБРАЗОВАНИЕ</a>
+        <a class="nav" href="https://www.kubsu.ru/ru/science">НАУКА</a>
+      </nav>
+      <div class="links">
+        <h1 class="title"> Список гиперссылок</h1>
+        <ol>
+          <li><a href="http://example.com"> Абсолютная гиперссылка на главную страницу example.com </a></li>
+          <li><a href="https://example.com"> Абсолютная на главную сайта example.com в протоколе https </a></li>
+          <li><a href="ftp://ftp.rasla.ru/Pictures/friends.jpg">Ссылка на файл на сервере FTP без авторизации</a></li>
+          <li><a href="ftp://softovichek.ru/16425246.jpg">Ссылка на файл на сервере FTP с авторизацией</a></li>
+          <li><a href="http://ochprosto.com/sdelat-ssylku-na-opredelennuyu-chast-stranicy#top">Ссылка на фрагмент страницы некоторого сайта</a></li>
+          <li><a href="#link">Cсылка на фрагмент текущей страницы </a></li>
+          <li><a href="https://yandex.ru/search/?text=kubsu&lr=35"> Ссылка с двумя параметрами URL на сайт КубГУ </a></li>
+          <li> Список ссылок основной навигации на сайт КубГУ
+          <ol>
+              <li><a href="https://kubsu.ru/ru" title = "Главная" >Главная </a> </li>
+              <li><a href="https://kubsu.ru/ru/university" title="Университет">Университет </a> </li>
+              <li><a href="https://kubsu.ru/ru/education" title="Образование">Образование </a> </li>
+              <li><a href="https://kubsu.ru/ru/science" title="Наука и инновации">Наука и инновации </a> </li>
+              <li><a href="https://kubsu.ru/ru/abiturient" title="Абитуриентам">Абитуриентам</a> </li>
+              <li><a href="https://kubsu.ru/ru/studlife" title="Студентам">Студентам</a> </li>
+          </ol></li>
+          <li><a>Ссылка без href </a></li>
+          <li><a href=""> Ссылка с пустым href </a></li>
+          <li><a href="https://example.com" rel="nofollow">Ссылка, по которой запрещен переход поисковиками</a></li>
+          <li><a href="https://example.com"> <!--noindex-->Сслыка, запрещенаня для индексации поисковиками <!--noindex--></a></li>
+          <li><p>Грантовая деятельность учёных КубГУ......<a href="https://kubsu.ru/ru/science/achivments"> продолжение  </a></p></li>
+          <li><a href="https://kubsu.ru/ru"><img src="https://im0-tub-ru.yandex.net/i?id=1ca296ecbad85aa29ffe3982345a6255&n=13" alt="Главный вход КубГУ"></a></li>
+          <li><img src="https://im0-tub-ru.yandex.net/i?id=1ca296ecbad85aa29ffe3982345a6255&n=13" alt="Главный вход КубГУ" usemap="#KUBSU">
+              <map name="KUBSU">
+              <area shape="circle" coords="50,50,50" href="https://kubsu.ru/ru" alt="kubsu">
+              <area shape="rect" coords="160,55,210,200" href="https://kubsu.ru/ru" alt="kubsu">
+              <area shape="circle" coords="250,100,50" href="https://kubsu.ru/ru" alt="kubsu">
+              <area shape="rect" coords="50,50,250,310" href="https://kubsu.ru/ru" alt="kubsu">
+              </map>
+          </li>
+          <li><a href="./educationofkubsu.jpg">Относительная ссылка на страницу в текущем каталоге</a></li>
+          <li><a href="./about/science.jpg">Относительная ссылка на страницу в каталоге about</a></li>
+          <li><a href="../studkife.jpg">Относительная ссылка на страницу в каталоге уровнем выше текущего</a></li>
+          <li><a href="../../abiturient.jpg">Относительная ссылка на страницу в каталоге двумя уровнями выше</a></li>
+          <li><a href="/">Ссылка, сокращенная на главную</a></li>
+          <li><a href="/main">Ссылка, сокращенная на внутреннюю</a></li>
+        </ol>
+    </div>
+    <div class="table_fon">
+        <h1 class="title"> Таблица </h1>
+        <table>
+            <tbody> 
+            <tr><th>Заголовок 1</th><th>Заголовок 2</th><th>Заголовок 3</th></tr>
+            <tr><td>1.1</td><td>1.2</td><td rowspan="2">Строка 1,2</td></tr>
+            <tr><td>2.1</td><td>2.2</td></tr>
+            <tr><td colspan="2">Стобец 1,2</td><td>2.5</td> </tr>
+            <tr><td>4.1</td><td>4.2</td><td>4.3</td></tr>
+            <tr><td>5.1</td><td>5.2</td><td>5.3</td></tr>
+            </tbody>
+        </table>
+    </div>
+    <br>
+    <div class="form_fon"> 
+        <h1 class="title"> Форма </h1>
+        <form id="link">
+            <label>Имя:
+            <br>
+            <input type="text" placeholder="Введите свое имя">
+            </label>
+            <br>
+            <label>e-mail:
+            <br>
+            <input type="email" placeholder="example@yandex.ru">
+            </label>
+            <br>
+            <label>Дата рождения:
+            <br>
+            <input type="date" value="2000-01-11">
+            </label>
+            <br>
+            Пол:
+            <br>
+            <label>
+            <input type="radio" name="male or female">
+            Мужской
+            </label>
+            <label>
+            <input type="radio" name="male or female">
+            Женский
+            </label>
+            <br>
+            Количество конечностей:
+            <br>
+            <label>
+            <input type="radio" name="limbs">
+            0
+            </label>
+            <label>
+            <input type="radio" name="limbs">
+            1
+            </label>
+            <label>
+            <input type="radio" name="limbs">
+            2
+            </label>
+            <label>
+            <input type="radio" name="limbs">
+            3
+            </label>
+            <label>
+            <input type="radio" name="limbs">
+            4
+            </label>
+            <br>
+            <label>Сверхспособности:
+            <br>
+            <select multiple="multiple">
+                <option>Бессмертие</option>
+                <option>Прохождение сквозь стены</option>
+                <option>Левитация</option>
+            </select>
+            </label>
+            <br>
+            <label>Биография:
+            <br>
+            <textarea placeholder="Рассказ о себе"></textarea>
+            </label>
+            <br>
+            <label>
+            <input type="checkbox">
+            С контрактом ознакомлен
+            </label>
+            <br>
+            <input type="button" value="Отправить">
+        </form>
+        </div>
+    </main>
+    <footer>
+      <div class="footer">
+      <h1>(с) Попов Сергей 2021 </h1> 
+      </div>
+    </footer>
+  </body> </html>

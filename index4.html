@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <title> WEB</title>
+  <meta charset = "utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link rel="stylesheet" href="style4.css">
+  
+  </head>
+  <body class="py-0 my-0">
+    <header>
+      <div class="container-fluid px-0">
+        <div class="container d-flex justify-content-center"> 
+          <div><a href ="https://steamcommunity.com/id/normlinez"> <img class="float-left img-fluid"  id="logo" src="logo4.png" alt="2ms"> </a> </div>
+         <div><h1 class="titleH pt-4 pt-md-5 text-break text-wrap" id="title" >WEB разработка</h1></div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <nav class = "container navbar justify-content-center my-3">
+        <div class="col-sm-12 col-md-3"><a class="nav-link text-center" href="https://www.kubsu.ru/ru/university">УНИВЕРСИТЕТ</a></div>
+        <div class="col-sm-12 col-md-3"><a class="nav-link text-center" href="https://www.kubsu.ru/ru/education">ОБРАЗОВАНИЕ</a></div>
+        <div class="col-sm-12 col-md-3"><a class="nav-link text-center" href="https://www.kubsu.ru/ru/science">ИННОВАЦИИ</a></div>
+      </nav>
+          <div class="d-flex flex-column">
+          <div class="container mainBorder">
+            <h1 class="titleM text-center mt-2"> Список гиперссылок</h1>
+           <div class="d-flex flex-column">
+            <ol class="ml-n4 ml-md-2">
+              <li><a href="http://example.com"> Абсолютная гиперссылка на главную страницу example.com </a></li>
+              <li><a href="https://example.com"> Абсолютная на главную сайта example.com в протоколе https </a></li>
+              <li><a href="ftp://ftp.rasla.ru/Pictures/friends.jpg">Ссылка на файл на сервере FTP без авторизации</a></li>
+              <li><a href="ftp://softovichek.ru/16425246.jpg">Ссылка на файл на сервере FTP с авторизацией</a></li>
+              <li><a href="http://ochprosto.com/sdelat-ssylku-na-opredelennuyu-chast-stranicy#top">Ссылка на фрагмент страницы некоторого сайта</a></li>
+              <li><a href="#link">Cсылка на фрагмент текущей страницы </a></li>
+              <li><a href="https://yandex.ru/search/?text=kubsu&lr=35"> Ссылка с двумя параметрами URL на сайт КубГУ </a></li>
+              <li> Список ссылок основной навигации на сайт КубГУ
+              <ol>
+                  <li><a href="https://kubsu.ru/ru" title = "Главная" >Главная </a> </li>
+                  <li><a href="https://kubsu.ru/ru/university" title="Университет">Университет </a> </li>
+                  <li><a href="https://kubsu.ru/ru/education" title="Образование">Образование </a> </li>
+                  <li><a href="https://kubsu.ru/ru/science" title="Наука и инновации">Наука и инновации </a> </li>
+                  <li><a href="https://kubsu.ru/ru/abiturient" title="Абитуриентам">Абитуриентам</a> </li>
+                  <li><a href="https://kubsu.ru/ru/studlife" title="Студентам">Студентам</a> </li>
+              </ol></li>
+              <li><a>Ссылка без href </a></li>
+              <li><a href=""> Ссылка с пустым href </a></li>
+              <li><a href="https://example.com" rel="nofollow">Ссылка, по которой запрещен переход поисковиками</a></li>
+              <li><a href="https://example.com"> <!--noindex-->Сслыка, запрещенаня для индексации поисковиками <!--noindex--></a></li>
+              <li><p>Грантовая деятельность учёных КубГУ......<a href="https://kubsu.ru/ru/science/achivments"> продолжение  </a></p></li>
+              <li><a href="https://kubsu.ru/ru"><img src="https://im0-tub-ru.yandex.net/i?id=1ca296ecbad85aa29ffe3982345a6255&n=13" class="img" alt="Главный вход КубГУ"></a></li>
+              <li><img src="https://im0-tub-ru.yandex.net/i?id=1ca296ecbad85aa29ffe3982345a6255&n=13" class="img" alt="Главный вход КубГУ" usemap="#KUBSU">
+                  <map name="KUBSU">
+                  <area shape="circle" coords="50,50,50" href="https://kubsu.ru/ru" alt="kubsu">
+                  <area shape="rect" coords="160,55,210,200" href="https://kubsu.ru/ru" alt="kubsu">
+                  <area shape="circle" coords="250,100,50" href="https://kubsu.ru/ru" alt="kubsu">
+                  <area shape="rect" coords="50,50,250,310" href="https://kubsu.ru/ru" alt="kubsu">
+                  </map>
+              </li>
+              <li><a href="./educationofkubsu.jpg">Относительная ссылка на страницу в текущем каталоге</a></li>
+              <li><a href="./about/science.jpg">Относительная ссылка на страницу в каталоге about</a></li>
+              <li><a href="../studkife.jpg">Относительная ссылка на страницу в каталоге уровнем выше текущего</a></li>
+              <li><a href="../../abiturient.jpg">Относительная ссылка на страницу в каталоге двумя уровнями выше</a></li>
+              <li><a href="/">Ссылка, сокращенная на главную</a></li>
+              <li><a href="/main">Ссылка, сокращенная на внутреннюю</a></li>
+            </ol>
+        </div>
+    </div>
+    <div class="mainBorder  mt-4 container order-1 order-sm-1 order-md-2"> 
+      <h1 class="titleM text-center mt-2 "> Форма </h1>
+      <div class="text-center px-5 ">
+        <form id="link" class="container mb-5 pb-2 ">
+            <label>Имя:
+            <br>
+            <input type="text" placeholder="Введите свое имя">
+            </label>
+            <br>
+            <label>e-mail:
+            <br>
+            <input type="email" placeholder="example@yandex.ru">
+            </label>
+            <br>
+            <label>Дата рождения:
+            <br>
+            <input type="date" value="07-10-2021">
+            </label>
+            <br>
+            Пол:
+            <br>
+            <label>
+            <input type="radio" name="male or female">
+            Мужской
+            </label>
+            <label>
+            <input type="radio" name="male or female">
+            Женский
+            </label>
+            <br>
+            Количество конечностей:
+            <br>
+            <label>
+            <input type="radio" name="limbs">
+            0
+            </label>
+            <label>
+            <input type="radio" name="limbs">
+            1
+            </label>
+            <label>
+            <input type="radio" name="limbs">
+            2
+            </label>
+            <label>
+            <input type="radio" name="limbs">
+            3
+            </label>
+            <label>
+            <input type="radio" name="limbs">
+            4
+            </label>
+            <br>
+            <label>Сверхспособности:
+            <br>
+            <select multiple="multiple">
+                <option>Бессмертие</option>
+                <option>Прохождение сквозь стены</option>
+                <option>Левитация</option>
+            </select>
+            </label>
+            <br>
+            <label>Биография:
+            <br>
+            <textarea placeholder="Рассказ о себе"></textarea>
+            </label>
+            <br>
+            <label>
+            <input type="checkbox">
+            С контрактом ознакомлен
+            </label>
+            <br>
+            <input type="button" value="Отправить">
+        </form>
+        </div>
+      </div>
+      <div class="mainBorder mt-4 container px-5 order-2 order-sm-2 order-md-1">
+        <h1 class="titleM text-center mt-2"> Таблица </h1>
+        <div class="d-flex justify-content-center">
+          <table class="container mb-5 p-5 ">
+              <tbody class> 
+              <tr><th class="py-md-4">Заголовок 1</th><th>Заголовок 2</th><th>Заголовок 3</th></tr>
+              <tr><td class="py-md-4">1.1</td><td>1.2</td><td rowspan="2">Строка 1,2</td></tr>
+              <tr><td class="py-md-4">2.1</td><td>2.2</td></tr>
+              <tr><td class="py-md-4" colspan="2">Стобец 1,2</td><td>2.5</td> </tr>
+              <tr><td class="py-md-4">4.1</td><td>4.2</td><td>4.3</td></tr>
+              <tr><td class="py-md-4">5.1</td><td>5.2</td><td>5.3</td></tr>
+              </tbody>
+          </table>
+        </div>
+    </div>
+  </div>
+      </main>
+    <footer class="mt-4">
+      <div class="container-fluid text-white d-flex justify-content-center flex-wrap align-content-center">
+        <h1 class="text-white mt-3">(с) Сергей Попов 2021 </h1> 
+      </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  </body>
+</html>

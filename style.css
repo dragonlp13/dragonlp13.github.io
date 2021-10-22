@@ -1,0 +1,184 @@
+*{
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  color:#6e3bb1;
+}
+body{
+  background-color: #e4d9f3;
+}
+header{
+  background-color: #7C51B4;
+}
+header div .container{
+  background-color: #6e3bb1;
+  border: 1px solid #6e3bb1;
+}
+.titleH{
+  color:white;
+  font-size:30px;
+  font-weight: bold;
+}
+#logo{
+  width: 100px;
+  height: 100px;
+} 
+
+nav div a{
+  background-color :#7C51B4;
+  font-size: 15px;
+  min-width: 50px;
+  font-weight: bold;
+  color: white;
+}
+nav{
+  background-color :#7C51B4;
+  border: 2px solid #6e3bb1;
+}
+
+.img{
+  width: 200px;
+  height: 100px;
+  border-radius: 10px;
+} 
+.mainBorder{
+  border: 1px solid #6e3bb1;
+  border-radius: 0px;
+  background-color:#cebfe0;
+}
+main a {
+  color:#6e3bb1;
+}
+main a:hover {
+  color:#6e3bb1;
+  font-weight: bold;
+  text-decoration: none;
+}
+li {
+  font-size: 12px;
+}
+li:hover {
+  font-weight: bolder;
+}
+.titleM{
+  color:#6e3bb1;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 25px;
+  font-weight: bold;
+}
+table {
+  color: #ffffff;
+  border-collapse: collapse;
+  text-align: center;
+  background-color: #7C51B4;
+}
+th {
+  border: 3px solid #572e8b;
+}
+td {
+  border: 3px solid #572e8b;
+}
+tr:nth-child(2n) {    
+   background-color: #a08eb9;
+}
+form {
+ font-size: 12px;
+ color:#572e8b;
+ font-weight: bold;
+}
+#inputPrice1, #inputCount1{
+  font-size: 15px;
+}
+#price, #n{
+  background-color: #e4d9f3;
+  color:#7C51B4;;
+  font-size: 12px;
+}
+.calc  input::placeholder{
+  color:#7C51B4;;
+}
+.btn{
+  background-color: #7C51B4;
+  color:white;
+  font-weight: bold;
+  font-size: 12px;
+  border-radius: 15px;
+}
+.btn:hover{
+  color:white;
+  font-weight: bolder;
+  background-color: #e4d9f3;
+}
+.btn:active, .btn:focus{
+  font-weight: bolder;
+  color: #7C51B4;
+  background-color:#cebfe0;
+}
+.resultCalc{
+  font-size: 12px;
+}
+footer{
+   background-color: #6e3bb1;
+}
+footer h1{
+  font-size:15px;
+  font-weight: bold;
+}
+@media screen and (min-width:768px){
+  header div .container{
+    border-radius: 10px;
+  }
+  .titleH{
+    font-size: 60px;
+  }
+  #logo{
+    width: auto;
+    height: auto;
+  }
+  nav{
+    background-color :#e4d9f3;
+    border: 0px solid #6e3bb1;
+  }
+  nav div a{
+    font-size: 25px;
+    border: 2px solid #6e3bb1;
+  }
+  nav div a:hover{
+  color:#e4d9f3;
+  background-color:#cebfe0;
+  }
+  .img{
+    width: 500px;
+    height: 300px;
+    border-radius: 20px;
+  }
+  .mainBorder{
+    border: 1px solid #6e3bb1;
+    border-radius: 10px;
+  }
+   .titleM{
+    font-size: 45px;
+  }
+  li {
+    font-size: 20px;
+  }
+  form {
+    font-size: 25px;
+  }
+  #inputPrice1, #inputCount1{
+    font-size: 25px;
+  }
+  #price, #n{
+   
+    font-size: 25px;
+  }
+  .btn{
+   
+    font-size: 20px;
+  }
+  .resultCalc{
+    font-size: 25px;
+  }
+  footer h1{
+    font-size: 30px;
+  }
+}

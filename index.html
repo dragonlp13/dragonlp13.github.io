@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>normaliner:3</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <script defer src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script defer src="main.js"></script>
+  </head>
+  <body class="main">
+    <h1 class="title">WebPractice8</h1>
+    <button class="btnToOpen">Press</button>
+    <div class="hiddenDiv">
+      <div class="formDiv">
+        <form
+          id="form"
+          action="https://formcarry.com/s/cMhrJQ7tuB"
+          method="POST"
+        >
+          <h2 class="formTitle">Form</h2>
+          <label for="name">
+            Name:
+            <input name="name" id="name" placeholder="normaliner" required />
+          </label>
+          <br />
+          <label for="email"
+            >Email:
+            <input
+              type="email"
+              id="email"
+              required
+              name="email"
+              placeholder="normaliner@gmail.com"
+            />
+          </label>
+          <br />
+          <label for="msg"
+            >Message:<br />
+            <textarea
+              id="msg"
+              name="msg"
+              placeholder="Ur biography..."
+              required
+            ></textarea>
+          </label>
+          <br />
+          <label for="checkbox"
+            >Accept
+            <input type="checkbox" id="checkbox" name="checkbox" />
+          </label>
+          <br />
+          <input
+            type="submit"
+            id="btnToSend"
+            name="btnToSend"
+            value="Send"
+            disabled
+          />
+        </form>
+        <button class="btnToClose">Close</button>
+      </div>
+    </div>
+    <div class="hiddenResponse">
+      <div class="responseForm">
+        <h1 class="responseTitle">Answer</h1>
+        <p class="answer"></p>
+        <p class="emailP"></p>
+        <p class="message"></p>
+        <button class="close" id="cross">Close</button>
+      </div>
+    </div>
+  </body>
+</html>
